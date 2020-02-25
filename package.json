@@ -1,0 +1,18 @@
+{
+  "name": "aws-sqs",
+  "version": "1.0.0",
+  "description": "Demo to use sqs and sns using aws-sdk only",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.621.0",
+    "express": "^4.17.1",
+    "sqs-consumer": "^5.4.0"
+  }
+}
